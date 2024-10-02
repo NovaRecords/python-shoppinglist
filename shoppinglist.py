@@ -31,14 +31,16 @@ def main():
         print("2. Einkaufsliste anzeigen")
         print("3. Programm beenden")
         choice = input("Bitte treffen Sie die Auswahl: ")
-        if choice == 1:
+        if choice == "1":
             add_item()
-        elif choice == 2:
+        elif choice == "2":
             show_shoppinglist()
-        elif choice == 3:
+        elif choice == "3":
             print("Programm wird beendet! Auf Wiedersehen")
             break
         else:
-            print("Ungueltige Auswahl. Bitte waehle 1,2 oder 3")
+            print("Ungültige Auswahl. Bitte wähle 1, 2 oder 3")
 
-main()
+# Run_function
+if __name__ == "__main__":
+    main()

@@ -36,7 +36,7 @@ def main():
         elif choice == "2":
             show_shoppinglist()
         elif choice == "3":
-            print("Programm wird beendet! Auf Wiedersehen")
+            print("Programm wird beendet! Auf Wiedersehen!")
             break
         else:
             print("Ungültige Auswahl. Bitte wähle 1, 2 oder 3")

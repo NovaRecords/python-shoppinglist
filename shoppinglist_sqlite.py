@@ -1,5 +1,4 @@
 import sqlite3
-shoppinglist = []
 
 # Verbindung zu sqlite-DB
 conn = sqlite3.connect('groceries.db')
